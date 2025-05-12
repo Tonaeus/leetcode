@@ -28,7 +28,7 @@ public:
             q.pop();        
             
             for (auto& [v, w] : g[u]) {
-                ans[v] = 1LL * ans[u] * w % MOD; 
+                ans[v] = static_cast<long long>(ans[u]) * w % MOD; 
                 q.push(v);
             }
         }
