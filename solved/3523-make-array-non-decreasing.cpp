@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Technique: Greedy
+
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
