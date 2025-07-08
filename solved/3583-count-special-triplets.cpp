@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Data Structure: Hash Map
+// Data Structure: Unordered Map
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
