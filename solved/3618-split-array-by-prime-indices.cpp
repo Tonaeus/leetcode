@@ -12,8 +12,12 @@ public:
         int n = nums.size();
         
         vector<bool> prime(n, true);
-        prime[0] = false;
-        prime[1] = false;
+        if (n > 0) {
+            prime[0] = false;
+        }
+        if (n > 1) {
+            prime[1] = false;
+        }
         for (int p = 2; p * p <= n; p++) {
             if (prime[p] == true) {
                 for (int i = p * p; i <= n; i += p) {
