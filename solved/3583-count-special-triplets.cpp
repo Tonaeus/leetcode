@@ -26,7 +26,7 @@ public:
             
             r[val]--;
             
-            ans = (ans + 1LL * l[dbl] * r[dbl]) % MOD;
+            ans = (ans + 1ll * l[dbl] * r[dbl]) % MOD;
 
             l[val]++;
         }
