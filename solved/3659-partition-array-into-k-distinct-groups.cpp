@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Data Structure: Unordered Map
+
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
