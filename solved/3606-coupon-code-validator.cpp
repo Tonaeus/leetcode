@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Time Complexity: O(n * k + n·log(n)) -> n = number of coupons, k = average length of coupons
+// Time Complexity: O(n * k + n·log(n)) where n = number of coupons, k = average length of coupons
 // Space Complexity: O(n * k)
 
 class Solution {

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Time Complexity: O(m * n * l) -> m = number of responses, n = average number of strings, l = average number of characters
+// Time Complexity: O(m * n * l) where m = number of responses, n = average number of strings, l = average number of characters
 // Space Complexity: O(m * n * l)
 
 class Solution {
