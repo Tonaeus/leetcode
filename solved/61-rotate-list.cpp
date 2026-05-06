@@ -3,8 +3,8 @@ using namespace std;
 
 // Data Structure: Linked List
 
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 
 struct ListNode {
     int val;
@@ -32,7 +32,7 @@ public:
         if (k == 0) {
             return head;
         }
-        
+
         tail->next = head;
 
         ListNode* newTail = head;
