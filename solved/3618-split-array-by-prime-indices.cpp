@@ -3,7 +3,7 @@ using namespace std;
 
 // Algorithm: Sieve of Eratosthenes
 
-// Time Complexity: O(n·log(log(n)))
+// Time Complexity: O(n log log n)
 // Space Complexity: O(n)
 
 class Solution {

@@ -3,8 +3,8 @@ using namespace std;
 
 // Technique: Two Pointers
 
-// Time Complexity: O(n·log(n))
-// Space Complexity: O(log(n))
+// Time Complexity: O(n log n)
+// Space Complexity: O(log n)
 
 class Solution {
 public:
