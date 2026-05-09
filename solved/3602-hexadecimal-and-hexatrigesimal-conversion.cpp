@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Time Complexity: O(log16(n^2) + log36(n^3)) = O(log(n))
-// Space Complexity: O(log16(n^2) + log36(n^3)) = O(log(n))
+// Time Complexity: O(log16(n^2) + log36(n^3)) = O(log n)
+// Space Complexity: O(log16(n^2) + log36(n^3)) = O(log n)
 
 class Solution {
 public:
