@@ -1,8 +1,11 @@
 import sys
+import re
 
 def format_string(input_string):
     number, title = input_string.split(". ", 1)
-    formatted_title = title.lower().replace(" - ", "-").replace(" ", "-")
+    
+    formatted_title = re.sub(r"[\(\)\[\]]", "", title)
+    formatted_title = formatted_title.lower().replace(" - ", "-").replace(" ", "-")
     
     output1 = f"{number}-{formatted_title}.cpp"
     output2 = f"\"solved #{number} - {title}\""
